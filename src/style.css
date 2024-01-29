@@ -1,0 +1,106 @@
+@import url('./assets/css/normalize.css');
+
+.primary-btn {
+  border-radius: 5px;
+  border: 1px dashed #CBC9C9;
+  background: #FFF;
+  padding: 13px 20px;
+  height: fit-content;
+  color: #383129;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  background: #F2F2F2;
+}
+
+.primary-btn:active {
+  background: #E0DEDE;
+}
+
+button.primary-btn:disabled {
+  border: 1px dashed #E0E0E0;
+  color: #B5B3B1;
+  background: #FFF;
+}
+
+.primary-btn_orange {
+  border-radius: 5px;
+  background: #FF962B;
+  height: fit-content;
+  padding: 13px 20px;
+  color: #FFF;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.primary-btn_orange:hover {
+  background: #F88D20;
+}
+
+.primary-btn_orange:active {
+  background: #ED7D0B;
+}
+
+button.primary-btn_orange:disabled {
+  background: #EEECEB;
+  color: #B5B3B1;
+}
+
+.fraction__separator {
+  margin: 10px 0;
+  height: 1px;
+  background: #383129;
+  width: 100%;
+  display: block;
+}
+
+.plus-el {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background:
+    linear-gradient(#383129, #383129),
+    linear-gradient(#383129, #383129);
+  background-position: center;
+  background-size: 100% 1px, 1px 100%;
+  background-repeat: no-repeat;
+  margin: 0 20px;
+}
+
+.result__fraction {
+  width: 60px;
+}
+
+.result__numeric,
+.result__denominator {
+  padding: 13px 20px;
+  color: #383129;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: center;
+}
+
+.fractions-equals {
+  display: flex;
+  align-items: center;
+  margin-top: -8px;
+  margin: 0 20px;
+}
+
+.fractions-equals,
+.fractions-equals:before {
+  content: '';
+  height: 1px;
+  background: #383129;
+  width: 17px;
+}
+
+.fractions-equals:before {
+  margin-top: 7px;
+  position: absolute;
+}
